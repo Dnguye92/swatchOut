@@ -34,10 +34,6 @@ span {
 	position: relative;																																																																																											
 }
 /*Navigation Styles*/
-nav {
-	z-index: 1;
-}
-
 #sideNav {
 	height: 100%;
     width: 0;
@@ -85,6 +81,7 @@ nav {
 	margin: auto;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 
 #watchLogo {
@@ -147,6 +144,7 @@ nav {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 1000px;
+	opacity: 0.85;
 }
 #watches h1 {
 	text-align: center;
