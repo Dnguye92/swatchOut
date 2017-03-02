@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
+	<!-- NAVIGATION -->
 	<nav id="nav">
 		<div class="container">
 			<div class="row">
@@ -25,10 +26,11 @@
 		</div>
 	</nav>
 
+	<!-- SIDENAV that will pop out when menu button is clicked -->
 	<div id="sideNav">
 		<button type="button" id="closeButton">x</button>
-		<a href="#">About</a>
-		<a href="#">Watches</a>
+		<a data-scroll href="#about">About</a>
+		<a data-scroll href="#watches">Watches</a>
 		<a href="#">Contact</a>
 	</div>
 
@@ -43,16 +45,35 @@
 			<div>
 			<img class="img-responsive" src="img/SW2.jpg">
 				<div>
-					<h1>Click <a href="#"><i>here</i></a> to<br> view our products</h1>
+					<h1>Click <a data-scroll href="#watches"><i>here</i></a> to<br> view our products</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<h1>ABOUT</h1>
+			</div>
+			<div class="row">
+				<p>We're a watch brand that <span>focuses</span> on simple, sleek, and <i>elegant</i> designs. A timepiece with a busy face is a timepiece that takes the most important thing away - your time.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="watches">
+		<div class="container">
+			<div class="row">
+				<h1>Products</h1>
+			</div>
+		</div>
+	</section>
 
 
 	
 	<script src="jquery/jquery-2.2.2.min.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
@@ -62,6 +83,10 @@
 			infinite: true,
 			responsive: true
 		});
+	});
+	smoothScroll.init({
+		selector: '[data-scroll]',
+		callback: function (anchor, toggle) {}
 	});
 	</script>
 </body>
