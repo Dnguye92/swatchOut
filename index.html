@@ -7,14 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="jquery/jquery-2.2.2.min.js"></script>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
 	<nav>
-		<div class="container">
+		<div class="container" id="nav">
 			<div class="row">
 				<div id="logoName">
-					<h1>Swatch Out</h1>
+					<h1>Swatch <img src="img/watch.png" id="watchLogo">ut</h1>
 				</div>
 				<div id="menu">
 					<button type="button" id="menuButton">&#9776;</button>
@@ -24,12 +25,30 @@
 	</nav>
 
 	<div id="sideNav">
+		<button type="button" id="closeButton">X</button>
 		<a href="#">About</a>
 		<a href="#">Contact</a>
 	</div>
 
+	<div class="carousel">
+		<div><img src="img/SW1.jpg"></div>
+		<div><img src="img/SW2.jpg"></div>
+	</div>
 
 
+
+	
+	<script src="jquery/jquery-2.2.2.min.js"></script>
+	<script src="js/slick.js"></script>
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.carousel').slick({
+			autoplay: true,
+			infinite: true,
+			responsive: true
+		});
+	});
+	</script>
 </body>
 </html>
