@@ -88,6 +88,7 @@ span {
 	display: inline-block;
 	width: 42px;
 	height: 42px;
+	margin-bottom: 13px;
 }
 
 #logoName, #menu {
@@ -141,7 +142,7 @@ span {
 /*Watches section styling*/
 #watches {
 	background-image: url(../img/SW3.jpg);
-	background-size: 100% 100%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 1000px;
 	opacity: 0.85;
@@ -159,6 +160,10 @@ span {
 	text-align: center;
 	font-weight: 900;
 	font-size: 48px;
-	padding 1em 1em 0.5em 1em;
+	padding: 1em 1em 0.5em 1em;
 	color: black;
+}
+
+#contact h1 {
+	font-weight: bold;
 }
