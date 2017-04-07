@@ -141,11 +141,7 @@ span {
 
 /*Watches section styling*/
 #watches {
-	background-image: url(../img/SW3.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 1000px;
-	opacity: 0.85;
+	background-color: #2C2C2C;
 }
 #watches h1 {
 	text-align: center;

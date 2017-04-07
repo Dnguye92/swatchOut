@@ -25,58 +25,53 @@
 		"size": "40mm"	
 	},
 	{
-		"name": "S001",
-		"image": "stock1",
+		"name": "S006",
+		"image": "stock6",
+		"size": "38mm"	
+	},
+	{
+		"name": "S007",
+		"image": "stock7",
 		"size": "34mm"	
 	},
 	{
-		"name": "S001",
-		"image": "stock1",
+		"name": "S008",
+		"image": "stock8",
+		"size": "36mm"	
+	},
+	{
+		"name": "S009",
+		"image": "stock9",
+		"size": "40mm"	
+	},
+	{
+		"name": "S0010",
+		"image": "stock10",
+		"size": "38mm"	
+	},
+	{
+		"name": "S0011",
+		"image": "stock11",
 		"size": "34mm"	
 	},
 	{
-		"name": "S001",
-		"image": "stock1",
+		"name": "S0012",
+		"image": "stock12",
+		"size": "36mm"	
+	},
+	{
+		"name": "S0013",
+		"image": "stock13",
+		"size": "40mm"	
+	},
+	{
+		"name": "S0014",
+		"image": "stock14",
 		"size": "34mm"	
 	},
 	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
-	},
-	{
-		"name": "S001",
-		"image": "stock1",
-		"size": "34mm"	
+		"name": "S0015",
+		"image": "stock15",
+		"size": "38mm"	
 	}
 ]
