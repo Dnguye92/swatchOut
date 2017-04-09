@@ -151,6 +151,18 @@ span {
 	color: #fff;
 }
 
+select .form-control {
+	display: inline-block;
+}
+
+form {
+	text-align: center;
+}
+
+#search {
+	text-align: center;
+}
+
 /*Contact section styling*/
 #contact {
 	text-align: center;

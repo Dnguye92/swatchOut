@@ -5,11 +5,11 @@ var swatchOut = angular.module('swatchOut', [
 
 swatchOut.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
-	when('/watches', {
+	when('/', {
 		templateUrl: 'partials/watches.html',
 		controller: 'controller'
 	}).
 	otherwise({
-		redirectTo: '/watches'
+		redirectTo: '/'
 	})
 }])
