@@ -92,6 +92,13 @@ span {
 	margin-bottom: 13px;
 }
 
+#watchLogo2 {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	margin-bottom: 13px;
+}
+
 #logoName, #menu {
 	display: inline-block;
 }
@@ -175,30 +182,25 @@ form {
 	text-align: center;
 }
 
-div #watchContainer {
+#watchContainer {
 	transition: all 0.2s ease-out;
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
+	margin-bottom: 2em;
 }
 
-div #watchContainer:hover {
-	transition: scale(1.1);
-	-webkit-transition: scale(1.1);
-	-moz-transitions: scale(1.1);
-	-ms-transition: scale(1.1);
+#watchContainer:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transforms: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 
 
 /*Contact section styling*/
-#contact {
-	text-align: center;
-	font-weight: 900;
-	font-size: 48px;
-	padding: 1em 1em 0.5em 1em;
-	color: black;
-}
-
-#contact h1 {
-	font-weight: bold;
+footer {
+	padding: 2em 2em 1em 2em;
+	color: white;
+	background-color: #111;
 }
