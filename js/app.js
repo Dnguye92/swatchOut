@@ -1,6 +1,8 @@
 var swatchOut = angular.module('swatchOut', [
 	'ngRoute',
-	'watchControllers'
+	'watchControllers',
+	'ngAnimate',
+	'ui.bootstrap'
 ]);
 
 swatchOut.config(['$routeProvider', function($routeProvider) {
