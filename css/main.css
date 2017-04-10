@@ -15,8 +15,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	outline: 0;
 }
-a {
+a, a:hover, a:focus {
 	text-decoration: none;
+	color: black;
 }
 
 body {
@@ -127,7 +128,7 @@ span {
 /*About section styling*/
 #about h1 {
 	text-align: center;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 48px;
 	padding: 1em 1em 0.5em 1em;
 }
@@ -138,19 +139,30 @@ span {
 	padding: 0 1em 1em 0.5em;
 }
 
+img {
+	height: 300px;
+	width: 300px;
+}
 
 /*Watches section styling*/
 #watches {
-	background-color: #2C2C2C;
+	background-color: #EBEBEB
 }
 #watches h1 {
 	text-align: center;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 48px;
 	padding: 1em 1em 0.5em 1em;
-	color: #fff;
+	color: #111;
 }
 
+#main h2, p {
+	text-align: center;
+}
+#watchContainer img {
+	text-align: center;
+	margin-left: 2em;
+}
 select .form-control {
 	display: inline-block;
 }
@@ -162,6 +174,21 @@ form {
 #search {
 	text-align: center;
 }
+
+div #watchContainer {
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+}
+
+div #watchContainer:hover {
+	transition: scale(1.1);
+	-webkit-transition: scale(1.1);
+	-moz-transitions: scale(1.1);
+	-ms-transition: scale(1.1);
+}
+
 
 /*Contact section styling*/
 #contact {

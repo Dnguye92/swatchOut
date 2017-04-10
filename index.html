@@ -19,7 +19,7 @@
 <body>
 	<!-- NAVIGATION -->
 	<nav id="nav">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div id="logoName" class="affix-top" data-spy="affix" data-offset-top="800">
 					<h1>Swatch <img src="img/watch.png" id="watchLogo">ut</h1>
@@ -35,7 +35,7 @@
 	<div id="sideNav">
 		<button type="button" id="closeButton">x</button>
 		<a data-scroll href="#about">About</a>
-		<a data-scroll href="#watches">Watches</a>
+		<a data-scroll href="#main">Watches</a>
 		<a data-scroll href="#contact">Contact</a>
 	</div>
 
@@ -83,8 +83,6 @@
 			<div class="row">
 				<h1>Contact Us</h1>
 			</div>
-
-
 		</div>
 	</section>
 
@@ -104,7 +102,7 @@
 	});
 	smoothScroll.init({
 		selector: '[data-scroll]',
-		callback: function (anchor, toggle) {
+		callback: function(anchor, toggle) {
 			
 		}
 	});
