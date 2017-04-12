@@ -30,9 +30,7 @@ span {
 }
 
 .img-responsive {
-	width: 100%;
-	height: 675px;
-	position: relative;																																																																																											
+	width: 100%;																																																																																									
 }
 /*Navigation Styles*/
 #sideNav {
@@ -144,6 +142,14 @@ span {
 	text-align: center;
 	font-size: 28px;
 	padding: 0 1em 1em 0.5em;
+}
+
+#left {
+	margin-top: 3em;
+}
+
+#rightWatch {
+	float: right;
 }
 
 img {
