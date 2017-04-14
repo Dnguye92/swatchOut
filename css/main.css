@@ -239,3 +239,73 @@ footer {
 		margin-left: 0;
 	}
 }
+
+@media(max-width: 736px) {
+	#nav {
+		padding: 0.5em 2em 1em 2em;	
+	} #logoName h1 {
+		font-size: 24px;
+	} #watchLogo {
+		width: 21px;
+		height: 21px;
+		margin-bottom: 5px;
+	} .carousel h1 {
+		font-size: 34px;
+		top: 2.7em;
+	} #watchContainer {
+		text-align: center;
+	} .container-fluid {
+		padding-left: 0;
+		margin-left: 0;
+		padding-right: 15px;
+	}
+}
+
+@media(max-width: 414px) {
+	.carousel h1 {
+		font-size: 20px;
+	} #nav {
+		padding: 1em 1.5em 1.5em 1.5em;
+	} #logoName {
+		margin-left: 0.5em;
+	} #menuButton {
+		font-size: 16px;
+	} #about p {
+		font-size: 16px;
+	} #about h1 {
+		font-size: 24px;
+		margin-top: 10px;
+	} #sideNav a {
+		font-size: 24px;
+	} #sideNav #closeButton {
+		font-size: 22px;
+	} img {
+		height: 200px;
+		width: 200px;
+	} #watches h1 {
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 320px) {
+	.carousel h1 {
+		font-size: 15px;
+	} #nav {
+		padding: 0 1em;
+	} #logoName h1 {
+		font-size: 12px;
+	} #logoName {
+		margin-left: 2em;
+	} img {
+		height: 150px;
+		width: 150px;
+	} #main h2 {
+		font-size: 24px;
+	} #watchLogo2 {
+		height: 15px;
+		width: 15px;
+		margin-bottom: 4px;
+	} #logoName a {
+		font-size: 12px;
+	}
+}

@@ -2,14 +2,9 @@
 let menuButton = document.getElementById('menuButton');
 let closeButton = document.getElementById('closeButton');
 let sideNav = document.getElementById('sideNav');
-let swatches = [
-	{
-		
-	}
-]
 
 menuButton.addEventListener('click', () => {
-	sideNav.style.width = '25em';
+	sideNav.style.width = '40%';
 });
 closeButton.addEventListener('click', () => {
 	sideNav.style.width = '0';
